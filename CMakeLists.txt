@@ -58,3 +58,6 @@ add_subdirectory(demo_boost_asio)
 
 # s2s demo
 add_subdirectory(s2s_example)
+
+# thrift example
+add_subdirectory(thrift_example)
