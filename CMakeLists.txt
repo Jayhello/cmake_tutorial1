@@ -2,6 +2,15 @@ cmake_minimum_required(VERSION 3.5)
 
 # The project demo1 shows hwo to write a sample cmake project,
 # and shows how to build debug and release project
+add_compile_options(-std=c++11)
+
+set(LIB_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/lib")
+
+set(BIN_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/bin")
+
+message("LIB_OUTPUT_PATH ${LIB_OUTPUT_PATH}")
+message("BIN_OUTPUT_PATH ${BIN_OUTPUT_PATH}")
+
 add_subdirectory(demo1)
 
 # The project demo2 shows
@@ -28,3 +37,24 @@ add_subdirectory(demo9)
 # to set up custom targets for the installations
 # Mainly cited from: stack overflow
 add_subdirectory(demo10)
+
+add_subdirectory(demo11)
+
+add_subdirectory(demo12)
+
+add_subdirectory(demo_knn)
+
+# protobuf demo
+add_subdirectory(demo_protobuf)
+
+# a more hard demo
+add_subdirectory(demo_hard1)
+
+# use local boost
+add_subdirectory(demo_local_boost)
+
+# usage of boost asio
+add_subdirectory(demo_boost_asio)
+
+# s2s demo
+add_subdirectory(s2s_example)

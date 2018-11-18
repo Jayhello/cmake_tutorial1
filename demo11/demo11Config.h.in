@@ -1,0 +1,3 @@
+// the configured options and settings for demo11
+#define demo11_VERSION_MAJOR @demo11_VERSION_MAJOR@
+#define demo11_VERSION_MINOR @demo11_VERSION_MINOR@

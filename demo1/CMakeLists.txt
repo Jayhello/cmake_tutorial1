@@ -10,5 +10,9 @@ set(CMAKE_CXX_STANDARD 11)
 message(STATUS "binary dir is " ${CMAKE_BINARY_DIR})
 message(STATUS "src dir is " ${CMAKE_SOURCE_DIR})
 
-set(SOURCE_FILES main.cpp ../demo8/demo8.cpp)
+#set(SOURCE_FILES main.cpp ../demo8/demo8.cpp)
+set(SOURCE_FILES main.cpp test.cpp)
 add_executable(demo1 ${SOURCE_FILES})
+
+add_executable(server1 server_1.cpp)
+add_executable(server1_client server_1_client.cpp)
