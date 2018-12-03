@@ -19,3 +19,7 @@ include_directories("${PROJECT_BINARY_DIR}")
 
 # add the exectuable
 add_executable(demo11 demo11.cpp)
+target_link_libraries(demo11
+        demo7_1
+        )
+message("demo7_1 lib path: ${demo7_1}")

@@ -8,6 +8,9 @@ set(LIB_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/lib")
 
 set(BIN_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/bin")
 
+include_directories(${CMAKE_SOURCE_DIR})
+message("include dir ${CMAKE_SOURCE_DIR}")
+
 message("LIB_OUTPUT_PATH ${LIB_OUTPUT_PATH}")
 message("BIN_OUTPUT_PATH ${BIN_OUTPUT_PATH}")
 
