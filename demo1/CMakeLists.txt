@@ -11,7 +11,7 @@ message(STATUS "binary dir is " ${CMAKE_BINARY_DIR})
 message(STATUS "src dir is " ${CMAKE_SOURCE_DIR})
 
 #set(SOURCE_FILES main.cpp ../demo8/demo8.cpp)
-set(SOURCE_FILES main.cpp test.cpp)
+set(SOURCE_FILES main.cpp test.cpp ../proto_lib/proto_lib_demo.cpp)
 add_executable(demo1 ${SOURCE_FILES})
 
 add_executable(server1 server_1.cpp)

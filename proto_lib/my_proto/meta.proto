@@ -1,0 +1,6 @@
+package common;
+
+message Meta{
+    optional uint32 size = 1;
+    optional string header = 2;
+}

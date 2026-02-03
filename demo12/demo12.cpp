@@ -3,13 +3,13 @@
 //
 
 #ifdef USE_SPECIFIED
-//    #include "SpecifiedFun.h"
+    #include "SpecifiedFun/SpecifiedFun.h"
 #else
-//    #include "CommonFun.h"
+    #include "CommonFun.h"
 #endif
 
 int main(){
 
-//    showSelectedFun();
+    showSelectedFun();
 }
 
